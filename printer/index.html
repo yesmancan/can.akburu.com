@@ -237,7 +237,7 @@
         sendImageData()
           .then(sendTextData)
           .then(() => {
-            progress.hidden = true;
+            progress.hidden = false;
           })
           .catch(handleError);
       }
