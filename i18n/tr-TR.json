@@ -1,11 +1,126 @@
 {
 	"title": "Müşterilerimizin hayatını kolaylaştıracak çözümler getiriyoruz.",
+	"more_than": "Daha fazla",
 	"navigation": {
 		"turkish": "Türkçe",
-		"english": "English"
+		"english": "English",
+		"services": "Servislerimiz",
+		"business_specific_software_solutions": "İşletmelere Özel Yazılım Çözümleri",
+		"e_commerce_solutions": "E-Ticaret Çözümleri",
+		"b2b_and_b2c_solutions": "B2B & B2C Çözümler",
+		"digital_marketing_seo": "Digital Pazarlama & SEO",
+		"enterprise_resource_planning": "Kurumsal Kaynak & Planlama",
+		"data_analysis_and_big_data_solutions": "Veri Analizi ve Büyük Veri Çözümleri",
+		"web_service_integrations": "Web Servis Entegrasyonları",
+		"about": "Hakkımızda",
+		"contact": "İletişim"
+	},
+	"aboutpage": {
+		"desc": "İşletmelere özel yazılımlar geliştiren bir teknoloji firmasıyız.",
+		"desc2": "İşimize ve teknolojiye olan tutkumuz, müşterilerimizi yakından takip ederek mevcut ihtiyaçlarını en iyi şekilde anlamamıza ve optimum çözümü projelendirerek sunmamıza olanak verir.",
+		"desc3": "Kuruluşumuzdan bugüne, sektöründe lider markaların bizi tercih etmesindeki en önemli etken; ortaya çıkan yeni gereksinimlere karşı hızlı ve etkili çözümler geliştirebilme yeteneğimizdir.",
+		"progress1": "Güven",
+		"progress1_desc": "Sözleşme yaptığımız ilk andan itibaren sözleşme ve hukuki olarak tarafsız olarak iki taraf içinde tam güvenceli iş ortağınız olalım",
+		"progress2": "İş Yönetimi",
+		"progress2_desc": "Zamanında ve dakik çalışma tarzıyla sizler için hep hazır disiplinli bir ekip.",
+		"progress3": "Teknik Kabiliyet",
+		"progress3_desc": "Konunun uzmanı teknik personel kadromuz ile ekibimiz sorunlarınızı çözüme kavuştursun.",
+		"progress4": "Müşteri İlişkileri",
+		"progress4_desc": "Müşteri memnuniyetini esas alıyoruz, siz mutluysanız bizde mutluyuz her daim siz değerli müşterilerimiz için buradayız.",
+		"how_we_work": "NASIL ÇALIŞIRIZ",
+		"how_we_work_desc": "Sürekli gelişme bilincinde olmak birinci hedefimiz",
+		"how_we_work_1_title": "Önce Güvenlik",
+		"how_we_work_1_desc": "Çalışma yaptığımız bütün işlerde önce güvenlik ilkesi ile çalışırız.",
+		"how_we_work_2_title": "Modern Düşünce",
+		"how_we_work_2_desc": "Yağtığımız işlerde çağın ilerisinde olması için gerekli olan her şey yapılır.",
+		"how_we_work_3_title": "Uygun Fiyatlandırma",
+		"how_we_work_3_desc": "Fiyatlandırmalar sizler için en uygun pazar araştırmaları yapılarak hazırlanmaktadır."
+	},
+	"contactpage": {
+		"contact_us": "Bize Ulaşın",
+		"desc": "Bize iletişim formumuzdan ulaşın, kısa süre içinde size geri döneceğiz.",
+		"homepage": "Anasayfa",
+		"contact": "İletişim",
+		"send_message": "Mesajı Gönder",
+		"these_fields_are_required": "Bu alanlar zorunludur",
+		"name_surname": "Ad Soyad *",
+		"message": "Mesaj *"
 	},
 	"indexpage": {
+		"work_with_us": "Bizimle Çalışın, hemen size yardımcı olalım.",
 		"whatwedo": "Neler Yapıyoruz?",
-		"whatwedodesc": "Sunduğumuz hizmet, ihtiyaçlarınızı karşılamak için özel olarak tasarlanmıştır."
+		"whyus": "Neden Biz?",
+		"whyusreasons": "İşte değerli müşterilerimizin bizi seçmesinin birkaç nedeni.",
+		"whyusreason1": "Zaman konusunda takıntılıyız, verdiğimiz zamanda ve günde vaadedilen işi gerçekleştiririz",
+		"whyusreason2": "Ekibimiz öncelikle birlikte çalıştığımız işletmelerin bütün teknolojik altyapı ve yazılım ihtiyaçlarını belirliyoruz.",
+		"whyusreason3": "Analizlerimiz doğrultusunda, uçtan uca entegre şekilde çalışan özel yazılımlar geliştiriyor; işletmenizin dijital dönüşüm süreçlerinizin tamamında en güvenilir teknoloji partneri oluyoruz.",
+		"whatwedodesc": "Sunduğumuz hizmet, ihtiyaçlarınızı karşılamak için özel olarak tasarlanmıştır.",
+		"business_specific_software_solutions_short_desc": "Firmaların dinamik yapılar olduğu bilinen bir gerçektir. Dinamik bir yapıda ise işleyiş modelleri, etkenler, süreç tasarımları farklı olacaktır.",
+		"e_commerce_solutions_short_desc": "Bilgi çağının trendlerinin listesi oluşturulsa E-Ticaret sistemleri mutlaka listenin en üstlerinde yerini alacaktır.",
+		"b2b_and_b2c_solutions_short_desc": "B2B (İşletmeden İşletmeye) Çözümler Mevcut ekonomik süreçlerin büyük bir çoğunluğunu firmaların aynı anda alıcı ve satıcı olmaları şeklinde yorumlayabiliriz.",
+		"enterprise_resource_planning_short_desc": "Kurumsal kaynak planlaması nedir ? Kurumsal kaynak planlaması ya da işletme kaynak planlaması...",
+		"see_project": "Projeyi Gör",
+		"last_projects": "Son Projeler",
+		"last_project_desc": "Yaratıcı fikirler içeren son projelerimden bazılarına göz atın.",
+		"last_project_1_title": "ASANSÖR YÖNETİM SİSTEMİ",
+		"last_project_1_desc": "Asansör için geliştirilmiş bakım ve personel takip uygulaması",
+		"last_project_1_alt": "Personel takip , bakım takip",
+		"last_project_2_title": "HEPSİ ASANSÖR",
+		"last_project_2_desc": "Açık Pazar E-Ticaret Uygulaması",
+		"last_project_2_alt": "Ödeme Yönetimi, CMS, CRS, Kargo Yönetimi",
+		"last_project_3_title": "MARS DEKOR",
+		"last_project_3_desc": "Kişisel E-Ticaret Sitesi",
+		"last_project_3_alt": "Kişisel CMS ve Tasarım",
+		"last_project_4_title": "Tenisburada",
+		"last_project_4_desc": "Web Tasarım ve UX Geliştirildi.",
+		"last_project_4_alt": "Siteye modern bir görüntü ve kullanışlı bir arayüz uygulaması ile artık her zamankinden daha iyi.",
+		"let_us_call_you": "Sizi Arayalım",
+		"let_us_call_you_desc": "Telefon numarınız bırakın sizi arıyalım ve istediğiniz konu hakkında yardımcı olalım.",
+		"enter_your_phone_number": "Telefon numarızı giriniz.",
+		"lets_call_you": "Sizi Arayalım"
+	},
+	"business_specific_software_solutions": {
+		"title_desc": "Firmaların dinamik yapılar olduğu bilinen bir gerçektir. Dinamik bir yapıda ise işleyiş modelleri, etkenler, süreç tasarımları farklı olacaktır.",
+		"desc_title": "Bu farklılıkların çok iyi analiz edilerek işletmelere kullanılabilir çözümler üretebilmek doğru yaklaşım olacaktır.",
+		"desc": "bu süreci tasarlarken öncelikle firma ile süreci analiz eder, müşteriye karşılaşacağı çözümü simüle ederek iş akışında bir sonraki adım olan geliştirme sürecine geçer. Geliştirme süreçlerinde Çevik Yazılım Geliştirme (Agile Software Development) metodolojileri ile proje sürecinin hem müşteri tarafından hem de ekibimiz tarafından kontrol edilebilirliğini sağlamayı hedeflemektedir."
+	},
+	"e_commerce_solutions": {
+		"title_desc": "Bilgi çağının trendlerinin listesi oluşturulsa E-Ticaret sistemleri mutlaka listenin en üstlerinde yerini alacaktır.İnternet bankacılığının artan kullanım oranları E-Ticaret sistemleri kullanımını da doğru orantılı olarak artırmaktadır.",
+		"desc_title": "E-Ticaret sistemlerinin en önemli unsurlarını; Güvenlik, Hizmet Kalitesi, Müşteri Memnuniyeti ve Kampanya çeşitliliği olarak sıralayabiliriz.",
+		"desc": "Sınırsız ürün kategori ağacı, farklı ödeme modelleri, detaylı raporlama, mailing servisleri, arama motoru optimizasyonları, kampanya çeşitliliği, ERP, CRM entegrasyonu, Depo Entegrasyonu ve birçok faydalı modeliyle ekibimiz; E-Ticaret sistemlerinizi planlamayı, geliştirmeyi ve yayınlamayı taahhüt etmektedir."
+	},
+	"b2b_and_b2c_solutions": {
+		"title_desc": "",
+		"desc_title": "B2B (İşletmeden İşletmeye) Çözümler",
+		"desc": "Mevcut ekonomik süreçlerin büyük bir çoğunluğunu firmaların aynı anda alıcı ve satıcı olmaları şeklinde yorumlayabiliriz. Bu süreçte bir işletme hem satış hem de tedarik yapmak durumundadır. İşte bu noktada işletmelerin karşılıklı ilişkilerini dijital ortamda yürütebilmeleri için B2B yazılımlar gerekmektedir. Ekibimiz ile işletmelerin karşılıklık ihtiyaç ve beklentilerini analiz ederek onlar için en hızlı ve kolay B2B çözümü işletmelerin kullanımına sunuyoruz.",
+		"desc_title_2": "B2C (İşletmeden Tüketiciye) Çözümler",
+		"desc_2": "Günümüz trendlerine göre tasarlanmış, ölçeklenebilir B2C çözümlerimiz, kullanıcı deneyimini ve marka kimliğini geliştirmek için güvenlik, etkili arama araçları, yönetim kolaylığı, e-ödeme seçenekleri ve gerçek zamanlı bildirimler sunar."
+	},
+	"digital_marketing_seo": {
+		"title_desc": "Geçtiğimiz birkaç yıl içinde, dijital pazarlamanın önemi işletmeler için zirveye ulaştı.",
+		"desc_title": "Dijital pazarlama stratejisi olmayan bir web sitesine sahip olmak artık yeterli değil.",
+		"desc": "Dijital pazarlamanın önemini şu şekilde ifade edebiliriz:<br> <br>-Dijital pazarlama, potansiyel müşterilerinizin zaman ve paralarını harcadıkları yerler hakkında önemli bilgiler sağlar."
+	},
+	"enterprise_resource_planning": {
+		"title_desc": "Kurumsal kaynak planlaması nedir ?",
+		"desc_title": "Kurumsal kaynak planlaması ya da işletme kaynak planlaması,",
+		"desc": "işletmelerde mal ve hizmet üretimi için gereken işgücü, makine, malzeme gibi kaynakların verimli bir şekilde kullanılmasını sağlayan bütünleşik yönetim sistemlerine verilen genel addır. Kurumsal kaynak planlaması (KKP) sistemleri, bir işletmenin tüm veri ve işlemlerini biraraya getirmeye veya bir araya getirilmesine yardımcı olmaya çalışan ve genelde kullanımı kolay olan sistemlerdir. Klasik bir KKP yazılımı işlem yapabilmek için bilgisayarın çeşitli yazılım ve donanımlarını kullanır. KKP sistemleri temel olarak değişik verilerin saklanabildiği bütünleşik bir veritabanı kullanırlar. Kurumsal kaynak planlama farklı birimlerin, tek bir veritabanı sistemi içerisinde farklı platformlar tarafından işletilmesi olarak düşünülebilir. Büyük ve Orta Ölçekli firmaların ERP sistemlerine ihtiyaçlarının olduğu aşikardır. ERP sistemlerinde işletmenizin büyüklüğüne göre gerekli modülleri sizin için belirleyerek uygulama aşamasına taşıma çabasındadır."
+	},
+	"data_analysis_and_big_data_solutions": {
+		"title_desc": "Veri Analizi",
+		"desc_title": "İşletmenize ait verilerin detaylı analizini yapmaya yarayan ve bu analizler sonucunda gelecek dönem kararlarınızı daha efektif bir şekilde almanızı sağlayacak özel yazılımlar geliştiriyoruz.",
+		"desc": "Business Intelligence Solutions Businesses are living organisms and this creates the need for intelligent software in managerial and operational processes. At this point, as our team, we produce special solutions by using MS SQL Business Intelligence solutions, accompanied by up-to-date business intelligence algorithms."
+	},
+	"web_service_integrations": {
+		"title_desc": "Firmaların dinamik yapılar olduğu bilinen bir gerçektir. Dinamik bir yapıda ise işleyiş modelleri, etkenler, süreç tasarımları farklı olacaktır.",
+		"desc_title": "Bu farklılıkların çok iyi analiz edilerek işletmelere kullanılabilir çözümler üretebilmek doğru yaklaşım olacaktır.",
+		"desc": "bu süreci tasarlarken öncelikle firma ile süreci analiz eder, müşteriye karşılaşacağı çözümü simüle ederek iş akışında bir sonraki adım olan geliştirme sürecine geçer. Geliştirme süreçlerinde Çevik Yazılım Geliştirme (Agile Software Development) metodolojileri ile proje sürecinin hem müşteri tarafından hem de ekibimiz tarafından kontrol edilebilirliğini sağlamayı hedeflemektedir."
+	},
+	"footer": {
+		"alt": "250'den fazla müşterimiz tarafından güveniliyoruz.",
+		"phone": "Telefon",
+		"mail": "E-Mail",
+		"address": "Adres",
+		"copyright": "Copyright © 2022 Can Akburu Tüm Hakları Saklıdır."
 	}
 }

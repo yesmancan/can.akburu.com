@@ -1,11 +1,126 @@
 {
     "title": "We bring solutions to make life easier for our customers.",
+    "more_than": "More than",
     "navigation": {
         "turkish": "Türkçe",
-        "english": "English"
+        "english": "English",
+        "services": "Our Services",
+        "business_specific_software_solutions": "Business-Specific Software Solutions",
+        "e_commerce_solutions": "E-Commerce Solutions",
+        "b2b_and_b2c_solutions": "B2B and B2C Solutions",
+        "digital_marketing_seo": "Digital Marketing & SEO",
+        "enterprise_resource_planning": "Enterprise Resource & Planning",
+        "data_analysis_and_big_data_solutions": "Data Analysis and Big Data Solutions",
+        "web_service_integrations": "Web Service Integrations",
+        "about": "About Us",
+        "contact": "Contact Us"
     },
-	"indexpage": {
-		"whatwedo": "WHAT WE DO?",
-		"whatwedodesc": "The service we offer is specifically designed to meet your needs."
-	}
+    "indexpage": {
+        "work_with_us": "Work with us and we'll help you right away.",
+        "whatwedo": "WHAT WE DO?",
+        "whyus": "WHY U.S ?",
+        "whyusreasons": "Here are a few reasons why our valued customers choose us.",
+        "whyusreason1": "We're obsessed with time, we get the job done on time and on the day.",
+        "whyusreason2": "Our team first determines all the technological infrastructure and software needs of the businesses we work with.",
+        "whyusreason3": "In line with our analyses, we develop special software that works in an end-to-end integrated manner; We become the most reliable technology partner in all of your business's digital transformation processes.",
+        "whatwedodesc": "The service we offer is specifically designed to meet your needs.",
+        "business_specific_software_solutions_short_desc": "It is a known fact that companies are dynamic structures. In a dynamic structure, operating models, factors and process designs will be different.",
+        "e_commerce_solutions_short_desc": "If a list of the trends of the information age is created, E-Commerce systems will definitely take their place at the top of the list.",
+        "b2b_and_b2c_solutions_short_desc": "B2B (Business to Business) Solutions We can interpret most of the current economic processes as companies being buyers and sellers at the same time.",
+        "enterprise_resource_planning_short_desc": "What is enterprise resource planning? Enterprise resource planning or business resource planning...",
+        "see_project": "See Project",
+        "last_projects": "Latest Projects",
+        "last_project_desc": "Check out some of my recent projects with creative ideas.",
+        "last_project_1_title": "ELEVATOR MANAGEMENT SYSTEM",
+        "last_project_1_desc": "Improved maintenance and personnel tracking application for elevator",
+        "last_project_1_alt": "Personnel tracking, maintenance tracking",
+        "last_project_2_title": "HEPSİ ASANSÖR",
+        "last_project_2_desc": "Open Market E-Commerce Application",
+        "last_project_2_alt": "Payment Management, CMS, CRS, Cargo Management",
+        "last_project_3_title": "MARS DEKOR",
+        "last_project_3_desc": "Personal E-Commerce Site",
+        "last_project_3_alt": "Personal CMS and Design",
+        "last_project_4_title": "Tenisburada",
+        "last_project_4_desc": "WEB DESIGN AND UX IMPROVED",
+        "last_project_4_alt": "The site is now better than ever with a modern image and a useful interface application.",
+        "let_us_call_you": "Let's Call You",
+        "let_us_call_you_desc": "Leave your phone number and we will call you and we will help you with the subject you want.",
+        "enter_your_phone_number": "Enter your phone number.",
+        "lets_call_you": "Let's Call You"
+    },
+    "aboutpage": {
+        "desc": "We are a technology company that develops software for businesses.",
+        "desc2": "Our passion for our work and technology allows us to follow our customers closely, to understand their current needs in the best way and to offer the optimum solution by projecting.",
+        "desc3": "Since our establishment, the most important factor in the preference of leading brands in the sector; It is our ability to develop fast and effective solutions to emerging new requirements.",
+        "progress1": "Confidence",
+        "progress1_desc": "From the first moment we make a contract, let us be your fully-assured business partner for both parties, contractually and legally impartial.",
+        "progress2": "Work management",
+        "progress2_desc": "A disciplined team always ready for you with a timely and punctual working style.",
+        "progress3": "Technical Ability",
+        "progress3_desc": "Let our team solve your problems with our expert technical staff.",
+        "progress4": "Customer relationship",
+        "progress4_desc": "We are based on customer satisfaction, if you are happy, we are happy, we are always here for our valued customers.",
+        "how_we_work": "HOW WE WORK",
+        "how_we_work_desc": "Our primary goal is to be conscious of continuous improvement.",
+        "how_we_work_1_title": "Safety first",
+        "how_we_work_1_desc": "In all the works we do, we work with the principle of safety first.",
+        "how_we_work_2_title": "Modern Thought",
+        "how_we_work_2_desc": "Everything necessary to be ahead of the times is done in the works we do..",
+        "how_we_work_3_title": "Affordable Payment",
+        "how_we_work_3_desc": "Pricing is prepared by making the most suitable market research for you.."
+    },
+    "contactpage": {
+        "contact_us": "Contact us",
+        "desc": "Contact us via our contact form and we will get back to you shortly.",
+        "homepage": "Homepage",
+        "contact": "Contact",
+        "send_message": "Send Message",
+        "these_fields_are_required": "Bu alanlar zorunludur",
+        "name_surname": "Name Surname*",
+        "message": "Message *"
+    },
+    "business_specific_software_solutions": {
+        "title_desc": "It is a known fact that companies are dynamic structures. In a dynamic structure, operating models, factors and process designs will be different.",
+        "desc_title": "It would be the right approach to analyze these differences very well and to produce usable solutions for businesses.",
+        "desc": "While designing this process, it first analyzes the process with the company, simulates the solution that the customer will encounter, and moves on to the development process, which is the next step in the workflow. It aims to ensure that the project process can be controlled both by the customer and by our team, with Agile Software Development methodologies in the development processes."
+    },
+    "e_commerce_solutions": {
+        "title_desc": "If a list of the trends of the information age is created, E-Commerce systems will definitely take their place at the top of the list. Increasing usage rates of internet banking increase the use of E-Commerce systems in direct proportion.",
+        "desc_title": "The most important elements of e-commerce systems; We can list them as Security, Service Quality, Customer Satisfaction and Campaign diversity.",
+        "desc": "Our team, with its unlimited product category tree, different payment models, detailed reporting, mailing services, search engine optimizations, campaign diversity, ERP, CRM integration, Warehouse Integration and many useful models; Committed to planning, developing and publishing your e-Commerce systems."
+    },
+    "b2b_and_b2c_solutions": {
+        "title_desc": "",
+        "desc_title": "B2B (Business to Business) Solutions",
+        "desc": "We can interpret most of the current economic processes as companies being buyers and sellers at the same time. In this process, a business has to make both sales and supply. At this point, B2B software is required for businesses to carry out their mutual relations in the digital environment. By analyzing the mutual needs and expectations of businesses with our team, we offer the fastest and easiest B2B solution to businesses.",
+        "desc_title_2": "B2C (Business to Consumer) Solutions",
+        "desc_2": "Our scalable B2C solutions, designed according to today's trends, offer security, effective search tools, ease of management, e-payment options and real-time notifications to improve user experience and brand identity."
+    },
+    "digital_marketing_seo": {
+        "title_desc": "In the past few years, the importance of digital marketing has peaked for businesses.",
+        "desc_title": "Having a website without a digital marketing strategy is no longer enough.",
+        "desc": "We can express the importance of digital marketing as follows:<br> <br>-Digital marketing provides important information about where your potential customers spend their time and money."
+    },
+    "enterprise_resource_planning": {
+        "title_desc": "What is enterprise resource planning?",
+        "desc_title": "Enterprise resource planning or business resource planning,",
+        "desc": "It is the general name given to integrated management systems that enable the efficient use of resources such as labor, machinery and materials required for the production of goods and services in enterprises. Enterprise resource planning (ERP) systems are generally easy-to-use systems that try to bring together or help bring together all the data and processes of a business. A classical ERP software uses various software and hardware of the computer to operate. ERP systems basically use an integrated database where different data can be stored. Enterprise resource planning can be thought of as the operation of different units by different platforms within a single database system. It is obvious that large and medium-sized companies need ERP systems. In ERP systems, it tries to determine the necessary modules for you according to the size of your business and move them to the implementation stage."
+    },
+    "data_analysis_and_big_data_solutions": {
+        "title_desc": "Data analysis",
+        "desc_title": "We develop special software that allows you to make detailed analysis of the data of your business and as a result of these analyzes, you will make your future decisions more effectively.",
+        "desc": "Business Intelligence Solutions Businesses are living organisms and this creates the need for intelligent software in managerial and operational processes. At this point, as our team, we produce special solutions by using MS SQL Business Intelligence solutions, accompanied by up-to-date business intelligence algorithms."
+    },
+    "web_service_integrations": {
+        "title_desc": "It is a known fact that companies are dynamic structures. In a dynamic structure, operating models, factors and process designs will be different.",
+        "desc_title": "It would be the right approach to analyze these differences very well and to produce usable solutions for businesses.",
+        "desc": "While designing this process, it first analyzes the process with the company, simulates the solution that the customer will encounter, and moves on to the development process, which is the next step in the workflow. It aims to ensure that the project process can be controlled both by the customer and by our team, with Agile Software Development methodologies in the development processes."
+    },
+    "footer": {
+        "alt": "We are trusted by more than 250 of our customers.",
+        "phone": "Phone",
+        "mail": "E-Mail",
+        "address": "Address",
+        "copyright": "Copyright © 2022 Can Akburu All Rights Reserved."
+    }
 }

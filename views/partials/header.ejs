@@ -16,7 +16,7 @@
         </p>
       </div>
       <div class="d-flex flex-row align-items-center">
-        <div class="icon text-white fs-22 mt-1 me-2"> 
+        <div class="icon text-white fs-22 mt-1 me-2">
           <i class="uil uil-message"></i>
         </div>
         <p class="mb-0">
@@ -30,7 +30,7 @@
     <div class="container flex-lg-row flex-nowrap align-items-center">
       <div class="navbar-brand w-100">
         <a href="/">
-          <img src="/can-akburu-full-logo.svg" width="150" class="logo"/>
+          <img src="/can-akburu-full-logo.svg" width="150" class="logo" />
         </a>
       </div>
       <div class="navbar-collapse offcanvas-nav">
@@ -67,20 +67,40 @@
             </a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="/servislerimiz" data-bs-toggle="dropdown">Servislerimiz</a>
+            <a class="nav-link dropdown-toggle" href="/servislerimiz" data-bs-toggle="dropdown">
+              <%= lingua.navigation.services %>
+            </a>
             <div class="dropdown-menu dropdown-lg"
               style="margin-top: -10px!important;padding-top: 15px;box-shadow: 0 0 1.25rem rgb(30 34 40 / 25%);">
               <div class="dropdown-lg-content">
                 <div>
-                  <h6 class="dropdown-header">Servislerimiz</h6>
+                  <h6 class="dropdown-header">
+                    <%= lingua.navigation.services%>
+                  </h6>
                   <ul class="list-unstyled">
-                    <li><a class="dropdown-item" href="/services/business-specific-software-solutions">İşletmelere özel Yazılım Çözümleri</a></li>
-                    <li><a class="dropdown-item" href="/services/e-commerce-solutions">E-Ticaret Çözümleri</a></li>
-                    <li><a class="dropdown-item" href="/services/b2b-and-b2c-solutions">B2B & B2C Çözümler</a></li>
-                    <li><a class="dropdown-item" href="/services/digital-marketing-&-seo">Digital Pazarlama & SEO</a></li>
-                    <li><a class="dropdown-item" href="/services/enterprise-resource-&-planning">Kurumsal Kaynak & Planlama</a></li>
-                    <li><a class="dropdown-item" href="/services/data-analysis-and-big-data-solutions">Veri Analizi & Büyük Veri Çözümleri</a></li>
-                    <li><a class="dropdown-item" href="/services/web-service-integrations">Web Servis Entegrasyonları(SOAP, REST)</a></li>
+                    <li>
+                      <a class="dropdown-item" href="/services/business-specific-software-solutions">
+                        <%= lingua.navigation.business_specific_software_solutions %>
+                      </a>
+                    </li>
+                    <li><a class="dropdown-item" href="/services/e-commerce-solutions">
+                        <%= lingua.navigation.e_commerce_solutions %>
+                      </a></li>
+                    <li><a class="dropdown-item" href="/services/b2b-and-b2c-solutions">
+                        <%= lingua.navigation.b2b_and_b2c_solutions %>
+                      </a></li>
+                    <li><a class="dropdown-item" href="/services/digital-marketing-&-seo">
+                        <%= lingua.navigation.digital_marketing_seo %>
+                      </a></li>
+                    <li><a class="dropdown-item" href="/services/enterprise-resource-&-planning">
+                        <%= lingua.navigation.enterprise_resource_planning %>
+                      </a></li>
+                    <li><a class="dropdown-item" href="/services/data-analysis-and-big-data-solutions">
+                        <%= lingua.navigation.data_analysis_and_big_data_solutions %>
+                      </a></li>
+                    <li><a class="dropdown-item" href="/services/web-service-integrations">
+                        <%= lingua.navigation.web_service_integrations %>
+                      </a></li>
                   </ul>
                 </div>
                 <!-- /.column -->
@@ -89,10 +109,14 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/hakkimizda">Hakkımızda</a>
+            <a class="nav-link" href="/hakkimizda">
+              <%= lingua.navigation.about %>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/iletisim">İletişim</a>
+            <a class="nav-link" href="/iletisim">
+              <%= lingua.navigation.contact %>
+            </a>
           </li>
         </ul>
         <!-- /.navbar-nav -->

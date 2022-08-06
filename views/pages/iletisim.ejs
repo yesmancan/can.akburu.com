@@ -15,11 +15,11 @@
         <div class="container pt-17 pb-20 pt-md-19 pb-md-21 text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h1 class="display-1 mb-3 text-white">Bize Ulaşın</h1>
+              <h1 class="display-1 mb-3 text-white"><%= lingua.contactpage.contact_us %></h1>
               <nav class="d-inline-block" aria-label="breadcrumb">
                 <ol class="breadcrumb text-white">
-                  <li class="breadcrumb-item"><a href="#">Anasayfa</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">İletişim</li>
+                  <li class="breadcrumb-item"><a href="#"><%= lingua.contactpage.homepage %></a></li>
+                  <li class="breadcrumb-item active" aria-current="page"><%= lingua.contactpage.contact %></li>
                 </ol>
               </nav>
               <!-- /nav -->
@@ -54,7 +54,7 @@
                           </div>
                         </div>
                         <div class="align-self-start justify-content-start">
-                          <h5 class="mb-1">Adres</h5>
+                          <h5 class="mb-1"><%= lingua.footer.address %></h5>
                           <address> Ayanoğlu Mah. 1827 Sok. Özyıldırım Sitesi D Blok No : 23  <br
                               class="d-none d-md-block" />Kepez, Antalya</address>
                         </div>
@@ -65,7 +65,7 @@
                           <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-phone-volume"></i> </div>
                         </div>
                         <div>
-                          <h5 class="mb-1">Telefon</h5>
+                          <h5 class="mb-1"><%= lingua.footer.phone %></h5>
                           <p>+90 (545) 314 56 19</p>
                         </div>
                       </div>
@@ -75,7 +75,7 @@
                           <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-envelope"></i> </div>
                         </div>
                         <div>
-                          <h5 class="mb-1">E-mail</h5>
+                          <h5 class="mb-1"><%= lingua.footer.mail %></h5>
                           <p class="mb-0"><a href="mailto:can@akburu.com" class="link-body">can@akburu.com</a></p>
                         </div>
                       </div>
@@ -94,9 +94,9 @@
           <!-- /.row -->
           <div class="row">
             <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
-              <h2 class="display-4 mb-3 text-center">Bize Yazın</h2>
+              <h2 class="display-4 mb-3 text-center"><%= lingua.contactpage.contact_us %></h2>
               <p class="lead text-center mb-10">
-                Bize iletişim formumuzdan ulaşın, kısa süre içinde size geri döneceğiz.
+                <%= lingua.contactpage.desc %>
               </p>
               <form class="contact-form needs-validation" action="/contact-form" method="POST"  method="POST" novalidate="">
                 <div class="messages"></div>
@@ -104,7 +104,7 @@
                   <div class="col-md-4">
                     <div class="form-floating mb-4">
                       <input id="inputNameSurname" type="text" name="inputNameSurname" class="form-control" placeholder="Jane" required>
-                      <label for="inputNameSurname">Ad Soyad *</label>
+                      <label for="inputNameSurname"><%= lingua.contactpage.name_surname %></label>
                       <div class="valid-feedback"> Looks good! </div>
                       <div class="invalid-feedback"> Please enter your first name. </div>
                     </div>
@@ -134,15 +134,15 @@
                     <div class="form-floating mb-4">
                       <textarea id="inputMessage" name="inputMessage" class="form-control" placeholder="Your message"
                         style="height: 150px" required></textarea>
-                      <label for="inputMessage">Mesaj *</label>
+                      <label for="inputMessage"><%= lingua.contactpage.message %> </label>
                       <div class="valid-feedback"> Looks good! </div>
                       <div class="invalid-feedback"> Please enter your messsage. </div>
                     </div>
                   </div>
                   <!-- /column -->
                   <div class="col-12 text-center">
-                    <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3" value="Mesajı Gönder">
-                    <p class="text-muted"><strong>*</strong> Bu alanlar zorunludur.</p>
+                    <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3" value="<%= lingua.contactpage.send_message %>">
+                    <p class="text-muted"><strong>*</strong> <%= lingua.contactpage.these_fields_are_required %></p>
                   </div>
                   <!-- /column -->
                 </div>
@@ -162,8 +162,9 @@
         <div class="container pt-0 pb-14 pt-md-16 pb-md-18">
           <div class="row">
             <div class="col-lg-9 col-xxl-8 mx-auto">
-              <h3 class="display-4 mb-8 px-xl-12">250'den fazla müşterimiz tarafından güveniliyoruz. Şimdi onlara
-                katılın.</h3>
+              <h3 class="display-4 mb-8 px-xl-12">
+                <%= lingua.footer.alt %>
+              </h3>
             </div>
             <!-- /.row -->
           </div>

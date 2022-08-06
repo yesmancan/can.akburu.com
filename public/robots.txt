@@ -1,3 +1,1 @@
 User-agent: *
-Disallow: 
-Sitemap: https://www.akburu.com/sitemap.xml
