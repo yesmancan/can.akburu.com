@@ -42,7 +42,9 @@ function showLanguage() {
 function addAllLinkAndQuery() {
   let allLink = [...document.querySelectorAll("a[href]")];
   if (allLink) {
-    allLink = allLink.filter((x) => x.href.indexOf("#") == -1 && x.href.indexOf("?lang=") == -1);
+    allLink = allLink.filter(
+      (x) => x.href.indexOf("#") == -1 && x.href.indexOf("?lang=") == -1
+    );
     for (let i = 0; i < allLink.length; i++) {
       let element = allLink[i];
       element.href = element.href + location.search;
@@ -53,4 +55,9 @@ function addAllLinkAndQuery() {
 document.addEventListener("DOMContentLoaded", function () {
   showLanguage();
   addAllLinkAndQuery();
+  const langEn = document.querySelector(".nav-link.d-none.lang-tr");
+  const contactLink = document.querySelector(".nav-link.contact-link");
+  if (langEn && contactLink.innerText == "Contact Us") {
+    window.location.href = window.location.href + "?lang=tr";
+  }
 });

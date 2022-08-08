@@ -3,6 +3,7 @@ const compression = require("compression");
 const path = require("path");
 const nodemailer = require("nodemailer");
 const lingua = require("lingua");
+// const cookieParser = require("cookie-parser");
 
 const PORT = process.env.PORT || 5000;
 const app = express();
@@ -12,9 +13,16 @@ express()
     lingua(app, {
       defaultLocale: "tr",
       path: __dirname + "/i18n",
-      storageKey: 'lang'
+      storageKey: "lang",
     })
   )
+  // .use(cookieParser())
+  // .use((req, res, next) => {
+  //   console.log("Time:", Date.now());
+  //   req.headers.cookie = "language=tr;lang=tr";
+  //   res.cookie("language", "tr", { maxAge: 900000, httpOnly: false });
+  //   next();
+  // })
   .use(express.json())
   .use(express.urlencoded())
   .use(express.static(path.join(__dirname, "public")))
@@ -29,6 +37,7 @@ express()
   .get("/under-construction", (req, res) =>
     res.render("pages/under-construction")
   )
+
   .get("/", (req, res) => res.render("pages/index"))
   .get("/services/business-specific-software-solutions", (req, res) =>
     res.render("pages/services/business-specific-software-solutions")
