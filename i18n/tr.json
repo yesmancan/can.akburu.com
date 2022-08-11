@@ -11,7 +11,7 @@
 		"digital_marketing_seo": "Digital Pazarlama & SEO",
 		"enterprise_resource_planning": "Kurumsal Kaynak & Planlama",
 		"data_analysis_and_big_data_solutions": "Veri Analizi ve Büyük Veri Çözümleri",
-		"web_service_integrations": "Web Servis Entegrasyonları",
+		"web_service_integrations": "Servis Entegrasyonları",
 		"about": "Hakkımızda",
 		"contact": "İletişim"
 	},
@@ -70,7 +70,7 @@
 		"last_project_2_alt": "Ödeme Yönetimi, CMS, CRS, Kargo Yönetimi",
 		"last_project_3_title": "MARS DEKOR",
 		"last_project_3_desc": "Kişisel E-Ticaret Sitesi",
-		"last_project_3_alt": "Kişisel CMS ve Tasarım",
+		"last_project_3_alt": "Kişisel CMS ve online satış sitesi ve yönetim ekranları",
 		"last_project_4_title": "Tenisburada",
 		"last_project_4_desc": "Web Tasarım ve UX Geliştirildi.",
 		"last_project_4_alt": "Siteye modern bir görüntü ve kullanışlı bir arayüz uygulaması ile artık her zamankinden daha iyi.",
@@ -109,7 +109,7 @@
 	"data_analysis_and_big_data_solutions": {
 		"title_desc": "Veri Analizi",
 		"desc_title": "İşletmenize ait verilerin detaylı analizini yapmaya yarayan ve bu analizler sonucunda gelecek dönem kararlarınızı daha efektif bir şekilde almanızı sağlayacak özel yazılımlar geliştiriyoruz.",
-		"desc": "Business Intelligence Solutions Businesses are living organisms and this creates the need for intelligent software in managerial and operational processes. At this point, as our team, we produce special solutions by using MS SQL Business Intelligence solutions, accompanied by up-to-date business intelligence algorithms."
+		"desc": "İş Zekası Çözümleri İşletmeler canlı organizmalardır ve bu durum yönetimsel ve operasyonel süreçlerde akıllı yazılımlara olan ihtiyacı doğurur. Bu noktada ekibimiz olarak güncel iş zekası algoritmaları eşliğinde MS SQL İş Zekası çözümlerini kullanarak özel çözümler üretiyoruz."
 	},
 	"web_service_integrations": {
 		"title_desc": "Firmaların dinamik yapılar olduğu bilinen bir gerçektir. Dinamik bir yapıda ise işleyiş modelleri, etkenler, süreç tasarımları farklı olacaktır.",

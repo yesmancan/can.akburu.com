@@ -4615,7 +4615,7 @@ textarea.form-control.is-invalid {
     position: absolute;
     z-index: 1000;
     display: none;
-    min-width: 4rem;
+    min-width: 17rem;
     padding: 1rem 0;
     margin: 0;
     font-size: .75rem;
@@ -32703,7 +32703,7 @@ fieldset:disabled .btn.btn-circle {
         bottom: 0;
         right: 100%;
         left: -15rem;
-        width: 15rem;
+        width: 17rem;
         padding-right: 0;
         padding-left: 1.5rem;
         padding-bottom: .5rem;

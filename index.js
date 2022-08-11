@@ -57,7 +57,7 @@ express()
   .get("/services/data-analysis-and-big-data-solutions", (req, res) =>
     res.render("pages/services/data-analysis-and-big-data-solutions")
   )
-  .get("/services/web-service-integrations", (req, res) =>
+  .get("/services/service-integrations", (req, res) =>
     res.render("pages/services/web-service-integrations")
   )
   .get("/hakkimizda", (req, res) => res.render("pages/hakkimizda"))
