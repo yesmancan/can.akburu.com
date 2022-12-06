@@ -1,12 +1,15 @@
 const express = require("express");
 const compression = require("compression");
+
+const serverless = require('serverless-http');
 const path = require("path");
 const nodemailer = require("nodemailer");
 const lingua = require("lingua");
 // const cookieParser = require("cookie-parser");
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 const app = express();
+
 
 express()
   .use(
@@ -16,13 +19,6 @@ express()
       storageKey: "lang",
     })
   )
-  // .use(cookieParser())
-  // .use((req, res, next) => {
-  //   console.log("Time:", Date.now());
-  //   req.headers.cookie = "language=tr;lang=tr";
-  //   res.cookie("language", "tr", { maxAge: 900000, httpOnly: false });
-  //   next();
-  // })
   .use(express.json())
   .use(express.urlencoded())
   .use(express.static(path.join(__dirname, "public")))
@@ -32,7 +28,7 @@ express()
     res.set("Content-Encoding", "gzip");
     next();
   })
-  .set("views", path.join(__dirname, "views"))
+  .set("views", path.join(__dirname, "../views"))
   .set("view engine", "ejs")
   .get("/under-construction", (req, res) =>
     res.render("pages/under-construction")
@@ -122,5 +118,10 @@ express()
       }
     });
     res.redirect("/#ok");
-  })
-  .listen(PORT, () => console.log(`Listening on ${PORT}`));
+  });
+
+
+app.use('/.netlify/functions/server', router);  // path must route to lambda (express/server.js)
+
+module.exports = app;
+module.exports.handler = serverless(app);
