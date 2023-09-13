@@ -41,6 +41,7 @@ function showLanguage() {
 }
 function addAllLinkAndQuery() {
   let allLink = [...document.querySelectorAll("a[href]")];
+  allLink = allLink.filter(x=> !x.attributes.getNamedItem('referer'))
   if (allLink) {
     allLink = allLink.filter(
       (x) => x.href.indexOf("#") == -1 && x.href.indexOf("?lang=") == -1
